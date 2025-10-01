@@ -1,0 +1,56 @@
+body {
+  background-color: #f0f8ff; /* cor de fundo suave */
+  color: #333333;            /* cor do texto principal */
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.header, .main-title {
+  color: #2c3e50;
+  font-size: 2.5rem;
+}
+
+.video-card {
+  border: 2px solid #8e44ad;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.video-card:hover {
+  transform: scale(1.05);
+}
+
+.video-card img {
+  width: 100%;
+  height: auto;
+}
+
+.video-card .title {
+  background-color: #ecf0f1;
+  padding: 10px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AluraFlix Personalizado</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1 class="main-title">Meu Catálogo de Filmes</h1>
+      <p>Bem-vindo ao meu site de vídeos 💜</p>
+    </header>
+
+    <main>
+      <!-- Aqui o catálogo de vídeos já existente -->
+    </main>
+
+    <footer class="site-footer">
+      <p>Desenvolvido por <strong>Seu Nome</strong> | Projeto inspirado na Alura</p>
+    </footer>
+  </body>
+</html>
